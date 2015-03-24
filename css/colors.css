@@ -1,0 +1,54 @@
+#first{
+	background-color: #E7E8D1;
+}
+
+#semester{
+	background-color: #ECF0F1;
+}
+
+#titleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #E74C3C;
+	font-size: 60px;
+}
+
+#subtitleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #3399FF;
+	font-size: 40px;
+}
+
+#numbers{
+	font-size: 110px;
+	font-family: 'Special Elite', cursive;
+
+}
+#majors{
+	font-size: 70px;
+	font-family: 'Special Elite', cursive;
+
+}
+#c1{
+	color: #FFE11A;
+	font-family: 'Special Elite', cursive;
+}
+#c2{
+	color: #004358;
+	font-family: 'Special Elite', cursive;
+}
+#c3{
+	color: #D90000;
+	font-family: 'Special Elite', cursive;
+}
+#c4{
+	color: #01B0F0;
+	font-family: 'Special Elite', cursive;
+}
+#c5{
+	color: #FF8C00;
+	font-family: 'Special Elite', cursive;
+}
+#c6{
+	color: #85DB18; 
+	font-family: 'Special Elite', cursive;
+}
