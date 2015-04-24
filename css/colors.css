@@ -1,33 +1,100 @@
-#first{
-	background-color: #E7E8D1;
+@media print{
+	#first{
+		background-color: #FFFFFF;
+	}
 }
+#first{
+		background-color: #E7E8D1;
+	}
 
 #semester{
 	background-color: #ECF0F1;
 }
 
-#titleSemester{
+
+
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+	#numbers{
+		font-size: 12px;
+		font-family: 'Special Elite', cursive;
+	}
+	#titleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #E74C3C;
+	font-size: 20px;
+	}
+	#subtitleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #3399FF;
+	font-size: 15px;
+	}
+	#majors{
+	font-size: 20px;
+	font-family: 'Special Elite', cursive;
+	}
+}
+@media screen and (min-width:400px) and (max-width: 600px){
+	#numbers{
+		font-size: 20px;
+		font-family: 'Special Elite', cursive;
+	}
+	#titleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #E74C3C;
+	font-size: 35px;
+	}
+	#subtitleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #3399FF;
+	font-size: 20px;
+	}
+	#majors{
+	font-size: 30px;
+	font-family: 'Special Elite', cursive;
+	}
+}
+@media screen and (min-width:601px) and (max-width: 1035px){
+	#numbers{
+		font-size: 35px;
+		font-family: 'Special Elite', cursive;
+	}
+	#titleSemester{
 	font-family: 'Special Elite', cursive;
 	color: #E74C3C;
 	font-size: 60px;
+	}
+	#subtitleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #3399FF;
+	font-size: 30px;
+	}
+	#majors{
+	font-size: 40px;
+	font-family: 'Special Elite', cursive;
+	}
 }
-
-#subtitleSemester{
+@media screen and (min-width: 1016px) and (max-width: 1920px){
+	#numbers{
+	font-size: 110px;
+	font-family: 'Special Elite', cursive;
+	}
+	#titleSemester{
+	font-family: 'Special Elite', cursive;
+	color: #E74C3C;
+	font-size: 60px;
+	}
+	#subtitleSemester{
 	font-family: 'Special Elite', cursive;
 	color: #3399FF;
 	font-size: 40px;
-}
-
-#numbers{
-	font-size: 110px;
-	font-family: 'Special Elite', cursive;
-
-}
-#majors{
+	}
+	#majors{
 	font-size: 70px;
 	font-family: 'Special Elite', cursive;
-
+	}
 }
+
 #c1{
 	color: #FFE11A;
 	font-family: 'Special Elite', cursive;
